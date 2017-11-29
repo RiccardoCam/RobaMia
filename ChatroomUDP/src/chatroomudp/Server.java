@@ -9,10 +9,10 @@ package chatroomudp;
  *
  * @author Il Magnifico
  */
-public class Server{
-public static void main(String[] args) throws java.io.IOException {
+public class Server {
+
+    public static void main(String[] args) throws java.io.IOException {
         new MulticastServerThread().start();
         System.out.println("server start");
     }
-    
 }
